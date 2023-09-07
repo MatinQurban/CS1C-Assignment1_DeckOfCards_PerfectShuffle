@@ -1,4 +1,4 @@
-# CS1C Assignment 1:
+# Matin Qurbanzadeh CS1C Assignment 1:
 ## Deck of Cards -- Perfect Shuffle
 
 1. Write a class that will represent a card in a standard deck
