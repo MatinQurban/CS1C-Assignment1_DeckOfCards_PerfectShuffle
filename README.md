@@ -1,4 +1,5 @@
-# CS1C-Assignment1_DeckOfCards_PerfectShuffle
+# CS1C Assignment 1:
+## Deck of Cards -- Perfect Shuffle
 
 1. Write a class that will represent a card in a standard deck
 of playing cards. You will need to represent both the suit
