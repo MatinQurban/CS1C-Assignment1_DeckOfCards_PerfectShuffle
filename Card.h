@@ -21,7 +21,6 @@ public:
     Card(Suit s, Rank r);
     Suit getSuit();
     Rank getRank();
-    string toString();
     void printCard();
 
 private:

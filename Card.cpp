@@ -25,7 +25,7 @@ Card::Rank Card::getRank()
     return rank;
 }
 
-string Card::toString()
+void Card::printCard()
 {
     string suitString;
     string rankString;
@@ -65,5 +65,6 @@ string Card::toString()
             break;
     }
 
-    return rankString + " of " + suitString;
+    cout << rankString + " of " + suitString;
 }
+
