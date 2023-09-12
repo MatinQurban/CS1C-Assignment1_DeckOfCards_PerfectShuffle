@@ -22,6 +22,7 @@ public:
     Suit getSuit();
     Rank getRank();
     string toString();
+    void printCard();
 
 private:
     Suit suit;
