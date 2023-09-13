@@ -11,12 +11,12 @@
 
 using namespace std;
 
+enum Suit {Spades, Hearts, Diamonds, Clubs};
+enum Rank {Ace=1, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King};
+
 class Card
 {
 public:
-    enum Suit {Spades, Hearts, Diamonds, Clubs};
-    enum Rank {Ace=1, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King};
-
     Card();
     Card(Suit s, Rank r);
     Suit getSuit();
