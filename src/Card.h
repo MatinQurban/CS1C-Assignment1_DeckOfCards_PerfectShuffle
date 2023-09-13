@@ -19,6 +19,7 @@ class Card
 public:
     Card();
     Card(Suit s, Rank r);
+    Card(int s, int r);
     Suit getSuit();
     Rank getRank();
     void printCard();

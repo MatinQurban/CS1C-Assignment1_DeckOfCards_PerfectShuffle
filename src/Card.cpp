@@ -15,6 +15,12 @@ Card::Card(Suit s, Rank r)
     rank = r;
 }
 
+Card::Card(int s, int r)
+{
+    suit = static_cast<Suit>(s);
+    rank = static_cast<Rank>(r);
+}
+
 Card::Suit Card::getSuit()
 {
     return suit;
