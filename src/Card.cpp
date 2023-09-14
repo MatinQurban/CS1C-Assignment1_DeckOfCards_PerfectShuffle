@@ -21,12 +21,12 @@ Card::Card(int s, int r)
     rank = static_cast<Rank>(r);
 }
 
-Suit Card::getSuit()
+Suit Card::getSuit() const
 {
     return suit;
 }
 
-Rank Card::getRank()
+Rank Card::getRank() const
 {
     return rank;
 }

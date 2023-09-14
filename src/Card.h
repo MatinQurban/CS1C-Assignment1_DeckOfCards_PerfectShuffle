@@ -20,8 +20,8 @@ public:
     Card();
     Card(Suit s, Rank r);
     Card(int s, int r);
-    Suit getSuit();
-    Rank getRank();
+    Suit getSuit() const;
+    Rank getRank() const;
     void printCard();
 
 private:
