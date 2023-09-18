@@ -21,7 +21,7 @@ public:
 private:
     Card deck[52];
 
-}
+};
 
 
 
